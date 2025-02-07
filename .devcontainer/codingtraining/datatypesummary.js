@@ -36,4 +36,16 @@ const myFunction = function(){
 // console.log(typeof bigNumber );
 myFunction();
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// type of memmory allocations
+// 2 types::stack(used in pimitive data types)
+//  #we get a copy of the data
+
+// ::::::::::::::::::::::::::::::::::::::::::::::
+// ,Heap(used in non primitive data types) 
+// # we get a refference of the data 
+// #(original value changes)
+  
+
+
 
