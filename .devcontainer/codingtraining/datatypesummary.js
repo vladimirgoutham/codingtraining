@@ -34,7 +34,7 @@ const myFunction = function(){
 }
 
 // console.log(typeof bigNumber );
-myFunction();
+// myFunction();
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // type of memmory allocations
@@ -46,6 +46,32 @@ myFunction();
 // # we get a refference of the data 
 // #(original value changes)
   
+const name="goutham"
+const repoCount = 50
+// console.log(name + repoCount+"value");
+
+console.log(`hello my name is ${name} and my repo count is ${repoCount}`);
+
+const gameName = new String("hellogoutham");
+// console.log(gameName[0]);
+// console.log(gameName.__proto__);
+
+// console.log(gameName.length);
+// console.log(gameName.toUpperCase());
+console.log(gameName.charAt(8));
+console.log(gameName.indexOf('O'));
+// const newString = gameName.substring(0,9)
+
+ const newString = gameName.slice(-12,9)
+ console.log(newString);
+
+
+
+
+
+
+
+
 
 
 
