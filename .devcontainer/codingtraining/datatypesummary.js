@@ -64,6 +64,11 @@ console.log(gameName.indexOf('O'));
 
  const newString = gameName.slice(-12,9)
  console.log(newString);
+ const newStringOne = "  hello goutham raj   "
+ console.log(newStringOne);
+ console.log(newStringOne.trim());
+
+ 
 
 
 
