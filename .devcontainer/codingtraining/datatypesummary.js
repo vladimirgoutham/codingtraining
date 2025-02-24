@@ -62,13 +62,17 @@ console.log(gameName.charAt(8));
 console.log(gameName.indexOf('O'));
 // const newString = gameName.substring(0,9)
 
- const newString = gameName.slice(-12,9)
- console.log(newString);
- const newStringOne = "  hello goutham raj   "
- console.log(newStringOne);
- console.log(newStringOne.trim());
+//  const newString = gameName.slice(-12,9)
+//  console.log(newString);
+//  const newStringOne = "  hello goutham raj   "
+//  console.log(newStringOne);
+//  console.log(newStringOne.trim());
 
- 
+//  
+
+let mynewTimestamp = Date.now();
+console.log(mynewTimestamp);
+console.log(mynewTimestamp.toLocaleString());
 
 
 
